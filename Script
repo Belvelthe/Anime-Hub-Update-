@@ -1,0 +1,375 @@
+
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("Anime Hub", "Default")
+
+local tab1 = DrRayLibrary.newTab("Gojo", "ImageIdHere")
+
+tab1.newButton("Blue", "Click Me!", function()
+ 
+local args = {
+    [1] = "Blue"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+end)
+
+tab1.newButton("Red", "Click Me!", function()
+
+
+local args = {
+    [1] = "Red"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+
+tab1.newButton("Martial Combo ", "Click Me!", function()
+
+local args = {
+    [1] = "Barrage"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+
+tab1.newButton("Infinity Counter", "Click Me!", function()
+
+local args = {
+    [1] = "Hora"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+tab1.newButton("MaxRed", "Click Me!", function()
+
+
+local args = {
+    [1] = "MaxRed"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+
+tab1.newButton("MaxBlue", "Click Me!", function()
+
+
+local args = {
+    [1] = "MaxBlue"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+tab1.newButton("Purple", "Click Me!", function()
+
+
+local args = {
+    [1] = "HollowPurple"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+tab1.newButton("Hollow Purple", "Click Me!", function()
+
+local args = {
+    [1] = "HollowPurpleBig"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+tab1.newButton("Insta Domain", "Click Me!", function()
+
+
+local args = {
+    [1] = "TrueDomain"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+
+local tab2 = DrRayLibrary.newTab("Sukuna", "ImageIdHere")
+
+tab2.newButton("Divergent Fist", "Click Me!", function()
+
+local args = {
+    [1] = "Divergent"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Yuji"):FireServer(unpack(args))
+
+end)
+
+tab2.newButton("Cranium Impact", "Click Me!", function()
+
+local args = {
+    [1] = "Cranium"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Yuji"):FireServer(unpack(args))
+
+end)
+
+tab2.newButton("Black Flash", "Click Me!", function()
+
+local args = {
+    [1] = "Black"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Yuji"):FireServer(unpack(args))
+
+end)
+
+tab2.newButton("Manji Kick", "Click Me!", function()
+
+local args = {
+    [1] = "Manji"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Yuji"):FireServer(unpack(args))
+
+end)
+
+tab2.newButton("Cleave", "Click Me!", function()
+
+
+local args = {
+    [1] = "Cleave"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Yuji"):FireServer(unpack(args))
+
+end)
+
+tab2.newButton("Fire Arrow", "Click Me!", function()
+
+
+local args = {
+    [1] = "FireArrow"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Yuji"):FireServer(unpack(args))
+
+end)
+
+tab2.newButton("Dismantle", "Click Me!", function()
+
+
+local args = {
+    [1] = "Dismantle"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Yuji"):FireServer(unpack(args))
+
+end)
+
+tab2.newButton("Insta Domain", "Click Me!", function()
+
+
+local args = {
+    [1] = "TrueDomain"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Yuji"):FireServer(unpack(args))
+
+end)
+
+local tab3 = DrRayLibrary.newTab("Goku", "ImageIdHere")
+
+tab3.newButton("Ki Barrage", "Click Me!", function()
+
+local args = {
+    [1] = "KiBarrage"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Goku"):FireServer(unpack(args))
+
+end)
+
+tab3.newButton("Kamehameha", "Click Me!", function()
+
+local args = {
+    [1] = "Kamehameha"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Goku"):FireServer(unpack(args))
+
+end)
+
+tab3.newButton("DragonCombo", "Click Me!", function()
+
+local args = {
+    [1] = "DragonCombo"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Goku"):FireServer(unpack(args))
+
+end)
+
+tab3.newButton("Frenzy Kicks", "Click Me!", function()
+
+local args = {
+    [1] = "FrenzyKicks"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Goku"):FireServer(unpack(args))
+
+end)
+
+tab3.newButton("Celestial Whirlwind", "Click Me!", function()
+
+local args = {
+    [1] = "QuickCombo"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Goku"):FireServer(unpack(args))
+
+end)
+
+tab3.newButton("Super Kamehameha", "Click Me!", function()
+
+local args = {
+    [1] = "SuperKamehameha"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Goku"):FireServer(unpack(args))
+
+end)
+
+tab3.newButton("Ultra Sense", "Click Me!", function()
+
+local args = {
+    [1] = "UltraSense"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Goku"):FireServer(unpack(args))
+
+end)
+
+tab3.newButton("Godlike Combo", "Doesn't work i think", function()
+
+local args = {
+    [1] = "GodlikeCombo"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Goku"):FireServer(unpack(args))
+
+end)
+
+
+local tab4 = DrRayLibrary.newTab("Denji", "ImageIdHere")
+
+tab4.newButton("Heavenly Kick", "Click Me!", function()
+
+local args = {
+    [1] = "Kick"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Denji"):FireServer(unpack(args))
+
+end)
+
+
+tab4.newButton("Power", "Click Me!", function()
+
+local args = {
+    [1] = "Power"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Denji"):FireServer(unpack(args))
+
+end)
+
+
+tab4.newButton("?", "Dont Work", function()
+
+local args = {
+    [1] = ""
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Denji"):FireServer(unpack(args))
+
+end)
+
+
+tab4.newButton("Aki", "Click Me!", function()
+
+local args = {
+    [1] = "Aki"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Denji"):FireServer(unpack(args))
+
+end)
+
+
+local tab5 = DrRayLibrary.newTab("Misc", "ImageIdHere")
+
+tab5.newButton("Awaken", "Click Me!", function()
+
+local args = {
+    [1] = "Awaken"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gojo"):FireServer(unpack(args))
+
+end)
+
+tab5.newButton("NoCd", "Click Me!", function()
+
+game.Players.LocalPlayer.NoCD.Value = true
+
+end)
+
+tab5.newButton("NoStun", "Click Me!", function()
+
+game.Players.LocalPlayer.NoStunCD.Value = true
+
+end)
+
+tab5.newButton("NoDashCd", "Click Me!", function()
+
+game.Players.LocalPlayer.NoDashCD.Value = true
+
+end)
+
+tab5.newButton("Free Early Access", "Click Me!", function()
+
+game.Players.LocalPlayer.EarlyAccess.Value = true
+
+end)
+
+local tab6 = DrRayLibrary.newTab("Credits", "ImageIdHere")
+
+tab5.newButton("By Totally Not Scripting", "Script Maker", function()
+
+end)
+
+tab6.newButton("By animedevil12009", "Gui Manager", function()
+
+end)
+
+
+tab6.newButton("By Humbled", "Tester and best friend", function()
+
+
+end)
+
+tab6.newButton("By Fa anime", "Contributer", function()
+
+end)
